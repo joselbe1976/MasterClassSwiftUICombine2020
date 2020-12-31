@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310FA35A259E36790031E7B5 /* DetailMainHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FA359259E36790031E7B5 /* DetailMainHeroView.swift */; };
+		310FA35B259E36790031E7B5 /* DetailMainHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FA359259E36790031E7B5 /* DetailMainHeroView.swift */; };
 		3155161F259C6E34005641E3 /* MarvelHerosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3155161E259C6E34005641E3 /* MarvelHerosViewModel.swift */; };
 		31551620259C6E34005641E3 /* MarvelHerosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3155161E259C6E34005641E3 /* MarvelHerosViewModel.swift */; };
 		31551626259C6F83005641E3 /* MarvelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31551625259C6F83005641E3 /* MarvelModels.swift */; };
@@ -34,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		310FA359259E36790031E7B5 /* DetailMainHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMainHeroView.swift; sourceTree = "<group>"; };
 		3155161E259C6E34005641E3 /* MarvelHerosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHerosViewModel.swift; sourceTree = "<group>"; };
 		31551625259C6F83005641E3 /* MarvelModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelModels.swift; sourceTree = "<group>"; };
 		31551632259C7536005641E3 /* BaseNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetwork.swift; sourceTree = "<group>"; };
@@ -74,11 +77,12 @@
 		3155162E259C74CB005641E3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				31785395259CACCC008C91B3 /* LoadingView.swift */,
 				31A3F2F32599FEBC00B7243D /* MainView.swift */,
 				31785370259C888F008C91B3 /* HerosListView.swift */,
 				3178537B259C8BFC008C91B3 /* HeroRowView.swift */,
 				31785390259CA773008C91B3 /* DetailHeroView.swift */,
-				31785395259CACCC008C91B3 /* LoadingView.swift */,
+				310FA359259E36790031E7B5 /* DetailMainHeroView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,6 +259,7 @@
 				3155161F259C6E34005641E3 /* MarvelHerosViewModel.swift in Sources */,
 				31785391259CA773008C91B3 /* DetailHeroView.swift in Sources */,
 				31A3F3052599FEBD00B7243D /* herosMarvelApp.swift in Sources */,
+				310FA35A259E36790031E7B5 /* DetailMainHeroView.swift in Sources */,
 				3178538A259CA5F0008C91B3 /* MarvelSeriesHeroViewModel.swift in Sources */,
 				3178537C259C8BFC008C91B3 /* HeroRowView.swift in Sources */,
 				31551633259C7536005641E3 /* BaseNetwork.swift in Sources */,
@@ -273,6 +278,7 @@
 				31551620259C6E34005641E3 /* MarvelHerosViewModel.swift in Sources */,
 				31785392259CA773008C91B3 /* DetailHeroView.swift in Sources */,
 				31A3F3062599FEBD00B7243D /* herosMarvelApp.swift in Sources */,
+				310FA35B259E36790031E7B5 /* DetailMainHeroView.swift in Sources */,
 				3178538B259CA5F0008C91B3 /* MarvelSeriesHeroViewModel.swift in Sources */,
 				3178537D259C8BFC008C91B3 /* HeroRowView.swift in Sources */,
 				31551634259C7536005641E3 /* BaseNetwork.swift in Sources */,

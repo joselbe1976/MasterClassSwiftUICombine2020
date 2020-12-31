@@ -46,6 +46,10 @@ class MarvelSeriesHeroViewModel : ObservableObject {
     }
     
     
+    func getTestSerie() -> records{
+          return  records(id: 1009146, name: "", description: "he flagship X-Men comic for over 40 years, Uncanny X-Men delivers action, suspense, and a hint of science fiction month in and month out. Follow the adventures of Professor Charles Xavier's team of mutants as they attempt to protect a world that hates and fears them.", title: "Moon Girl and Devil Dinosaur (2015 - 2019)", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/b/e0/56d0caf175be0", thumbnailExtension: Extension.jpg), resourceURI: "http://gateway.marvel.com/v1/public/characters/1009146")
+    }
+    
     func tryMapClosure(statusCode:Int) -> ((data:Data, response:URLResponse)) throws -> Data {
         let closure:((data:Data, response:URLResponse)) throws -> Data = {
             guard let response = $0.response as? HTTPURLResponse else {

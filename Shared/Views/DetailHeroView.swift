@@ -10,7 +10,7 @@ import Combine
 
 struct DetailHeroView: View {
     @State var hero : records // modelo del heroe
-    @StateObject var viewModelSeries = MarvelSeriesHeroViewModel()
+    @StateObject private var viewModelSeries = MarvelSeriesHeroViewModel()
     
     var body: some View {
         Group{
@@ -49,42 +49,3 @@ struct DetailHeroView_Previews: PreviewProvider {
         DetailHeroView(hero: MarvelHerosViewModel(testData: true).getTestHero())
     }
 }
-
-
-
-// Detalle row de la Serie
-
-struct DetailMainHeroView: View {
-    @StateObject var viewModelPhoto = PhotoViewModel()
-    var serie : records
-    
-    var body: some View {
-       
-                     VStack{
-                        Text("\(serie.title!)")
-                            .bold()
-                            .padding()
-                        
-                        if let foto = viewModelPhoto.photo {
-                            Image(uiImage: foto)
-                                .resizable()
-                                .frame(width: 200 , height: 200)
-                                .padding()
-                        }
-                        else{
-                            let _ = viewModelPhoto.loadImage(urlString: serie.thumbnail.getURLDownloadImage())
-                        }
-                        
-                            
-                        if let descrip = serie.description {
-                                Text("\(descrip)")
-                        }else{
-                                Text("No desciption")
-                        }
-                        
-                    }
- 
-    }
-    
-}
-

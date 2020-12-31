@@ -16,26 +16,34 @@ struct HeroRowView: View {
             if let foto = viewModel.photo {
                 Image(uiImage: foto)
                     .resizable()
+                    .cornerRadius(10)
+                    .aspectRatio(contentMode: .fit)
+                    .opacity(0.6)
                     .frame(width: 90 , height: 120)
                     .padding()
             }
             else{
-                Image(systemName: "person")
+                Image(systemName: "photo")
                     .resizable()
+                    .cornerRadius(10)
+                    .aspectRatio(contentMode: .fit)
+                    .opacity(0.6)
                     .frame(width: 90 , height: 120)
-                    .padding()
-                    .foregroundColor(.pink)
+                    .foregroundColor(.gray)
                 // call to download
                 let _ = self.viewModel.loadImage(urlString: self.hero.thumbnail.getURLDownloadImage())
             }
-            VStack{
-                Text("\(hero.name!)")
-                    .foregroundColor(.black)
+            Text("\(hero.name!)")
+                    .font(.title2)
+                    .foregroundColor(.gray)
                     .bold()
-                Text("\(hero.id)")
-            }
-            
+            Spacer()
         }
+        .padding()
+        .background(
+            RoundedRectangle(cornerRadius: 18)
+                .fill(Color.gray.opacity(0.4))
+        )
     }
 }
 
