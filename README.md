@@ -21,7 +21,8 @@ Proyecto base de la master Class que se realizará con Keepcoding en formato Onl
   - ViewModel: Descarga de Series
   - View: Lista de Series de un superHéroe
   - Adaptar la app a:
-    - Apple Watch
-    - TvOS
+    - watchOS
+    - tvOS
+    - macOS
     
 
