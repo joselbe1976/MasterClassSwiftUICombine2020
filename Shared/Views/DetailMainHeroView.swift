@@ -11,23 +11,33 @@ struct DetailMainHeroView: View {
     @StateObject private var viewModelPhoto = PhotoViewModel()
     var serie : records
     
+    // tamaños por tipo dispositivo del frame de la imafen
+    #if os(tvOS)
+        var width : CGFloat = 600
+        var height : CGFloat = 400
+    
+    #else
+        var width : CGFloat = .infinity
+        var height : CGFloat = .infinity
+    #endif
+    
     var body: some View {
         VStack{
             ZStack{
                 // Image Serie
                if let foto = viewModelPhoto.photo {
-                   Image(uiImage: foto)
+                        foto
                         .resizable()
                         .opacity(0.3)
                         .aspectRatio(contentMode: .fit)
-                           
+                        .frame(width: width, height: height)
                }
                else{
                     Image(systemName: "photo")
                         .resizable()
                         .opacity(0.3)
                         .aspectRatio(contentMode: .fit)
-                        
+                        .frame(width: width, height: height)
                 
                     // Call  foto Download
                    let _ = viewModelPhoto.loadImage(urlString: serie.thumbnail.getURLDownloadImage())

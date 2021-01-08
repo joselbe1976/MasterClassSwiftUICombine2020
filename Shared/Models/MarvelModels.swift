@@ -8,7 +8,7 @@
 import Foundation
 
 /*
- Generar los modelos desde esta URL:
+ Generar los modelos desde esta URL. Los modelos valen tanto para Heros como Series
  https://quicktype.io
  */
 
@@ -49,8 +49,8 @@ struct Thumbnail: Codable {
         case thumbnailExtension = "extension"
     }
     
-    func getURLDownloadImage() -> String {
-        return "\(path)/portrait_xlarge.\(thumbnailExtension)"
+    func getURLDownloadImage(type:photoType = photoType.portrait) -> String {
+        return "\(path)/\(type.rawValue).\(thumbnailExtension)"
     }
 }
 
@@ -58,4 +58,9 @@ enum Extension: String, Codable {
     case gif = "gif"
     case jpg = "jpg"
     case png = "png"
+}
+
+enum photoType: String {
+    case portrait = "portrait_xlarge"
+    case landscape = "landscape_xlarge"
 }

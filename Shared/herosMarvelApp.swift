@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 @main
 struct herosMarvelApp: App {
     
@@ -16,6 +17,7 @@ struct herosMarvelApp: App {
         WindowGroup {
             MainView()
                 .environmentObject(viewModel) //inyectamos el viewmodel dentro del contectView
+                
         }
     }
 }

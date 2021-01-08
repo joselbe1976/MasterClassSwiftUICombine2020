@@ -20,7 +20,13 @@ struct MainView: View {
                     .bold()
                     .foregroundColor(.red)
             case Estados.loaded:
-                HerosListView() // lista Heros
+                
+                #if os(iOS) || os(watchOS) || os(tvOS)
+                    HerosListView() // lista Heros
+                #elseif os(OSX)
+                    HerosListView() // lista Heros
+                        .frame(minWidth: 400, maxWidth: .infinity, minHeight: 400, maxHeight: .infinity)
+                #endif
             case Estados.loading:
                 LoadingView()
             }

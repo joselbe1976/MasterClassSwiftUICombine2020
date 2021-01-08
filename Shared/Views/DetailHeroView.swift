@@ -24,14 +24,23 @@ struct DetailHeroView: View {
                 LoadingView()
             case Estados.loaded:
                 // Aqui pintamos la UI. LIsta de Series
-                
-                List{
-                    ForEach((viewModelSeries.dataMarvel?.data?.results!)! ,id:\.self){ serieModel in
-                        DetailMainHeroView(serie: serieModel)
+                #if os(OSX)
+                    List{
+                        ForEach((viewModelSeries.dataMarvel?.data?.results!)! ,id:\.self){ serieModel in
+                            DetailMainHeroView(serie: serieModel)
+                        }
                     }
-                }
-                .navigationBarTitle("Series of \(hero.name!)")
+                #else
+             
+                    List{
+                        ForEach((viewModelSeries.dataMarvel?.data?.results!)! ,id:\.self){ serieModel in
+                            DetailMainHeroView(serie: serieModel)
+                        }
+                    }
+                   .navigationBarTitle("Series of \(hero.name!)")
+                
             
+                #endif
             case Estados.error:
                 Text("Error al cargar")
                     .foregroundColor(.red)

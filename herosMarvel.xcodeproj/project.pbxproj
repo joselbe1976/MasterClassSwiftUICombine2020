@@ -9,6 +9,40 @@
 /* Begin PBXBuildFile section */
 		310FA35A259E36790031E7B5 /* DetailMainHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FA359259E36790031E7B5 /* DetailMainHeroView.swift */; };
 		310FA35B259E36790031E7B5 /* DetailMainHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FA359259E36790031E7B5 /* DetailMainHeroView.swift */; };
+		311BB70125A87A4100D40A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311BB70025A87A4100D40A6E /* Assets.xcassets */; };
+		311BB70825A87A4100D40A6E /* watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 311BB70725A87A4100D40A6E /* watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		311BB71125A87A4100D40A6E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311BB71025A87A4100D40A6E /* NotificationController.swift */; };
+		311BB71325A87A4100D40A6E /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311BB71225A87A4100D40A6E /* NotificationView.swift */; };
+		311BB71525A87A4100D40A6E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311BB71425A87A4100D40A6E /* ComplicationController.swift */; };
+		311BB71725A87A4200D40A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311BB71625A87A4200D40A6E /* Assets.xcassets */; };
+		311BB71A25A87A4200D40A6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311BB71925A87A4200D40A6E /* Preview Assets.xcassets */; };
+		311BB71F25A87A4200D40A6E /* watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 311BB6FE25A87A4000D40A6E /* watchOS.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		311BB73725A87AC600D40A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311BB73625A87AC600D40A6E /* Assets.xcassets */; };
+		311BB73A25A87AC600D40A6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311BB73925A87AC600D40A6E /* Preview Assets.xcassets */; };
+		311BB74E25A87B3C00D40A6E /* MarvelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31551625259C6F83005641E3 /* MarvelModels.swift */; };
+		311BB75425A87B3E00D40A6E /* MarvelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31551625259C6F83005641E3 /* MarvelModels.swift */; };
+		311BB75A25A87B4200D40A6E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31785395259CACCC008C91B3 /* LoadingView.swift */; };
+		311BB76025A87B4200D40A6E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31785395259CACCC008C91B3 /* LoadingView.swift */; };
+		311BB76625A87B4500D40A6E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A3F2F32599FEBC00B7243D /* MainView.swift */; };
+		311BB76C25A87B4500D40A6E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A3F2F32599FEBC00B7243D /* MainView.swift */; };
+		311BB77225A87B4800D40A6E /* HerosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31785370259C888F008C91B3 /* HerosListView.swift */; };
+		311BB77825A87B4B00D40A6E /* herosMarvelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A3F2F22599FEBC00B7243D /* herosMarvelApp.swift */; };
+		311BB77E25A87B4B00D40A6E /* herosMarvelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A3F2F22599FEBC00B7243D /* herosMarvelApp.swift */; };
+		311BB78425A87B5200D40A6E /* HerosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31785370259C888F008C91B3 /* HerosListView.swift */; };
+		311BB78A25A87B5400D40A6E /* HeroRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3178537B259C8BFC008C91B3 /* HeroRowView.swift */; };
+		311BB79025A87B5500D40A6E /* HeroRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3178537B259C8BFC008C91B3 /* HeroRowView.swift */; };
+		311BB79625A87B5800D40A6E /* DetailHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31785390259CA773008C91B3 /* DetailHeroView.swift */; };
+		311BB79C25A87B5900D40A6E /* DetailHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31785390259CA773008C91B3 /* DetailHeroView.swift */; };
+		311BB7A225A87B5B00D40A6E /* DetailMainHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FA359259E36790031E7B5 /* DetailMainHeroView.swift */; };
+		311BB7A825A87B5B00D40A6E /* DetailMainHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310FA359259E36790031E7B5 /* DetailMainHeroView.swift */; };
+		311BB7AE25A87B5E00D40A6E /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31785380259C962D008C91B3 /* PhotoViewModel.swift */; };
+		311BB7B425A87B5F00D40A6E /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31785380259C962D008C91B3 /* PhotoViewModel.swift */; };
+		311BB7BA25A87B6100D40A6E /* MarvelHerosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3155161E259C6E34005641E3 /* MarvelHerosViewModel.swift */; };
+		311BB7C025A87B6200D40A6E /* MarvelHerosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3155161E259C6E34005641E3 /* MarvelHerosViewModel.swift */; };
+		311BB7C625A87B6400D40A6E /* MarvelSeriesHeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31785389259CA5F0008C91B3 /* MarvelSeriesHeroViewModel.swift */; };
+		311BB7CC25A87B6500D40A6E /* MarvelSeriesHeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31785389259CA5F0008C91B3 /* MarvelSeriesHeroViewModel.swift */; };
+		311BB7D225A87B6900D40A6E /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31551632259C7536005641E3 /* BaseNetwork.swift */; };
+		311BB7D825A87B6900D40A6E /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31551632259C7536005641E3 /* BaseNetwork.swift */; };
 		3155161F259C6E34005641E3 /* MarvelHerosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3155161E259C6E34005641E3 /* MarvelHerosViewModel.swift */; };
 		31551620259C6E34005641E3 /* MarvelHerosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3155161E259C6E34005641E3 /* MarvelHerosViewModel.swift */; };
 		31551626259C6F83005641E3 /* MarvelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31551625259C6F83005641E3 /* MarvelModels.swift */; };
@@ -35,8 +69,65 @@
 		31A3F30A2599FEBD00B7243D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A3F2F42599FEBD00B7243D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		311BB70925A87A4100D40A6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31A3F2ED2599FEBC00B7243D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311BB70625A87A4100D40A6E;
+			remoteInfo = "watchOS Extension";
+		};
+		311BB71D25A87A4200D40A6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31A3F2ED2599FEBC00B7243D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311BB6FD25A87A4000D40A6E;
+			remoteInfo = watchOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		311BB72025A87A4200D40A6E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				311BB71F25A87A4200D40A6E /* watchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311BB72325A87A4200D40A6E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				311BB70825A87A4100D40A6E /* watchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		310FA359259E36790031E7B5 /* DetailMainHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMainHeroView.swift; sourceTree = "<group>"; };
+		311BB6FE25A87A4000D40A6E /* watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		311BB70025A87A4100D40A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		311BB70225A87A4100D40A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311BB70725A87A4100D40A6E /* watchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311BB71025A87A4100D40A6E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		311BB71225A87A4100D40A6E /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		311BB71425A87A4100D40A6E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		311BB71625A87A4200D40A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		311BB71925A87A4200D40A6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		311BB71B25A87A4200D40A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311BB71C25A87A4200D40A6E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		311BB73025A87AC400D40A6E /* tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		311BB73625A87AC600D40A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		311BB73925A87AC600D40A6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		311BB73B25A87AC600D40A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3155161E259C6E34005641E3 /* MarvelHerosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHerosViewModel.swift; sourceTree = "<group>"; };
 		31551625259C6F83005641E3 /* MarvelModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelModels.swift; sourceTree = "<group>"; };
 		31551632259C7536005641E3 /* BaseNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetwork.swift; sourceTree = "<group>"; };
@@ -57,6 +148,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		311BB70425A87A4100D40A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311BB72D25A87AC400D40A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31A3F2F62599FEBD00B7243D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,6 +179,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		311BB6FF25A87A4000D40A6E /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				311BB70025A87A4100D40A6E /* Assets.xcassets */,
+				311BB70225A87A4100D40A6E /* Info.plist */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+		311BB70B25A87A4100D40A6E /* watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				311BB71025A87A4100D40A6E /* NotificationController.swift */,
+				311BB71225A87A4100D40A6E /* NotificationView.swift */,
+				311BB71425A87A4100D40A6E /* ComplicationController.swift */,
+				311BB71625A87A4200D40A6E /* Assets.xcassets */,
+				311BB71B25A87A4200D40A6E /* Info.plist */,
+				311BB71C25A87A4200D40A6E /* PushNotificationPayload.apns */,
+				311BB71825A87A4200D40A6E /* Preview Content */,
+			);
+			path = "watchOS Extension";
+			sourceTree = "<group>";
+		};
+		311BB71825A87A4200D40A6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				311BB71925A87A4200D40A6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		311BB73125A87AC400D40A6E /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				311BB73625A87AC600D40A6E /* Assets.xcassets */,
+				311BB73B25A87AC600D40A6E /* Info.plist */,
+				311BB73825A87AC600D40A6E /* Preview Content */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		311BB73825A87AC600D40A6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				311BB73925A87AC600D40A6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		3155162E259C74CB005641E3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +266,9 @@
 				31A3F2F12599FEBC00B7243D /* Shared */,
 				31A3F2FB2599FEBD00B7243D /* iOS */,
 				31A3F3022599FEBD00B7243D /* macOS */,
+				311BB6FF25A87A4000D40A6E /* watchOS */,
+				311BB70B25A87A4100D40A6E /* watchOS Extension */,
+				311BB73125A87AC400D40A6E /* tvOS */,
 				31A3F2FA2599FEBD00B7243D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,6 +290,9 @@
 			children = (
 				31A3F2F92599FEBD00B7243D /* herosMarvel.app */,
 				31A3F3012599FEBD00B7243D /* herosMarvel.app */,
+				311BB6FE25A87A4000D40A6E /* watchOS.app */,
+				311BB70725A87A4100D40A6E /* watchOS Extension.appex */,
+				311BB73025A87AC400D40A6E /* tvOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,6 +317,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		311BB6FD25A87A4000D40A6E /* watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311BB72725A87A4200D40A6E /* Build configuration list for PBXNativeTarget "watchOS" */;
+			buildPhases = (
+				311BB6FC25A87A4000D40A6E /* Resources */,
+				311BB72325A87A4200D40A6E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				311BB70A25A87A4100D40A6E /* PBXTargetDependency */,
+			);
+			name = watchOS;
+			productName = watchOS;
+			productReference = 311BB6FE25A87A4000D40A6E /* watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		311BB70625A87A4100D40A6E /* watchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311BB72625A87A4200D40A6E /* Build configuration list for PBXNativeTarget "watchOS Extension" */;
+			buildPhases = (
+				311BB70325A87A4100D40A6E /* Sources */,
+				311BB70425A87A4100D40A6E /* Frameworks */,
+				311BB70525A87A4100D40A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOS Extension";
+			productName = "watchOS Extension";
+			productReference = 311BB70725A87A4100D40A6E /* watchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		311BB72F25A87AC400D40A6E /* tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311BB73C25A87AC600D40A6E /* Build configuration list for PBXNativeTarget "tvOS" */;
+			buildPhases = (
+				311BB72C25A87AC400D40A6E /* Sources */,
+				311BB72D25A87AC400D40A6E /* Frameworks */,
+				311BB72E25A87AC400D40A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOS;
+			productName = tvOS;
+			productReference = 311BB73025A87AC400D40A6E /* tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		31A3F2F82599FEBD00B7243D /* herosMarvel (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31A3F30D2599FEBD00B7243D /* Build configuration list for PBXNativeTarget "herosMarvel (iOS)" */;
@@ -164,10 +375,12 @@
 				31A3F2F52599FEBD00B7243D /* Sources */,
 				31A3F2F62599FEBD00B7243D /* Frameworks */,
 				31A3F2F72599FEBD00B7243D /* Resources */,
+				311BB72025A87A4200D40A6E /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				311BB71E25A87A4200D40A6E /* PBXTargetDependency */,
 			);
 			name = "herosMarvel (iOS)";
 			productName = "herosMarvel (iOS)";
@@ -200,6 +413,15 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					311BB6FD25A87A4000D40A6E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					311BB70625A87A4100D40A6E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					311BB72F25A87AC400D40A6E = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					31A3F2F82599FEBD00B7243D = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -223,11 +445,40 @@
 			targets = (
 				31A3F2F82599FEBD00B7243D /* herosMarvel (iOS) */,
 				31A3F3002599FEBD00B7243D /* herosMarvel (macOS) */,
+				311BB6FD25A87A4000D40A6E /* watchOS */,
+				311BB70625A87A4100D40A6E /* watchOS Extension */,
+				311BB72F25A87AC400D40A6E /* tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		311BB6FC25A87A4000D40A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311BB70125A87A4100D40A6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311BB70525A87A4100D40A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311BB71A25A87A4200D40A6E /* Preview Assets.xcassets in Resources */,
+				311BB71725A87A4200D40A6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311BB72E25A87AC400D40A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311BB73A25A87AC600D40A6E /* Preview Assets.xcassets in Resources */,
+				311BB73725A87AC600D40A6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31A3F2F72599FEBD00B7243D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +498,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		311BB70325A87A4100D40A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311BB71125A87A4100D40A6E /* NotificationController.swift in Sources */,
+				311BB7D225A87B6900D40A6E /* BaseNetwork.swift in Sources */,
+				311BB76625A87B4500D40A6E /* MainView.swift in Sources */,
+				311BB71525A87A4100D40A6E /* ComplicationController.swift in Sources */,
+				311BB7C625A87B6400D40A6E /* MarvelSeriesHeroViewModel.swift in Sources */,
+				311BB74E25A87B3C00D40A6E /* MarvelModels.swift in Sources */,
+				311BB78A25A87B5400D40A6E /* HeroRowView.swift in Sources */,
+				311BB71325A87A4100D40A6E /* NotificationView.swift in Sources */,
+				311BB7BA25A87B6100D40A6E /* MarvelHerosViewModel.swift in Sources */,
+				311BB77225A87B4800D40A6E /* HerosListView.swift in Sources */,
+				311BB7A225A87B5B00D40A6E /* DetailMainHeroView.swift in Sources */,
+				311BB75A25A87B4200D40A6E /* LoadingView.swift in Sources */,
+				311BB7AE25A87B5E00D40A6E /* PhotoViewModel.swift in Sources */,
+				311BB79625A87B5800D40A6E /* DetailHeroView.swift in Sources */,
+				311BB77825A87B4B00D40A6E /* herosMarvelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311BB72C25A87AC400D40A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311BB77E25A87B4B00D40A6E /* herosMarvelApp.swift in Sources */,
+				311BB79C25A87B5900D40A6E /* DetailHeroView.swift in Sources */,
+				311BB79025A87B5500D40A6E /* HeroRowView.swift in Sources */,
+				311BB7CC25A87B6500D40A6E /* MarvelSeriesHeroViewModel.swift in Sources */,
+				311BB7C025A87B6200D40A6E /* MarvelHerosViewModel.swift in Sources */,
+				311BB75425A87B3E00D40A6E /* MarvelModels.swift in Sources */,
+				311BB7B425A87B5F00D40A6E /* PhotoViewModel.swift in Sources */,
+				311BB7A825A87B5B00D40A6E /* DetailMainHeroView.swift in Sources */,
+				311BB78425A87B5200D40A6E /* HerosListView.swift in Sources */,
+				311BB7D825A87B6900D40A6E /* BaseNetwork.swift in Sources */,
+				311BB76C25A87B4500D40A6E /* MainView.swift in Sources */,
+				311BB76025A87B4200D40A6E /* LoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31A3F2F52599FEBD00B7243D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,7 +579,161 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		311BB70A25A87A4100D40A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311BB70625A87A4100D40A6E /* watchOS Extension */;
+			targetProxy = 311BB70925A87A4100D40A6E /* PBXContainerItemProxy */;
+		};
+		311BB71E25A87A4200D40A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311BB6FD25A87A4000D40A6E /* watchOS */;
+			targetProxy = 311BB71D25A87A4200D40A6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		311BB72125A87A4200D40A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AH9SPD7BPD;
+				IBSC_MODULE = watchOS_Extension;
+				INFOPLIST_FILE = watchOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keepcoding.herosMarvel3.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		311BB72225A87A4200D40A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AH9SPD7BPD;
+				IBSC_MODULE = watchOS_Extension;
+				INFOPLIST_FILE = watchOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keepcoding.herosMarvel3.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		311BB72425A87A4200D40A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"watchOS Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5VE37W94CE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.keepcoding.herosMarvel3.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		311BB72525A87A4200D40A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"watchOS Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5VE37W94CE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.keepcoding.herosMarvel3.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		311BB73D25A87AC600D40A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 5VE37W94CE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.keepcoding.herosMarvelSwiftUI2.tvOS2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Debug;
+		};
+		311BB73E25A87AC600D40A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 5VE37W94CE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.keepcoding.herosMarvelSwiftUI2.tvOS2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		31A3F30B2599FEBD00B7243D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -405,7 +851,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5VE37W94CE;
+				DEVELOPMENT_TEAM = AH9SPD7BPD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -413,7 +859,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.keepcoding.herosMarvel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keepcoding.herosMarvel3;
 				PRODUCT_NAME = herosMarvel;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -427,7 +873,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5VE37W94CE;
+				DEVELOPMENT_TEAM = AH9SPD7BPD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -435,7 +881,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.keepcoding.herosMarvel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keepcoding.herosMarvel3;
 				PRODUCT_NAME = herosMarvel;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -461,7 +907,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keepcoding.herosMarvel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keepcoding.herosMarvel3;
 				PRODUCT_NAME = herosMarvel;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -485,7 +931,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keepcoding.herosMarvel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keepcoding.herosMarvel3;
 				PRODUCT_NAME = herosMarvel;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -495,6 +941,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		311BB72625A87A4200D40A6E /* Build configuration list for PBXNativeTarget "watchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311BB72425A87A4200D40A6E /* Debug */,
+				311BB72525A87A4200D40A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311BB72725A87A4200D40A6E /* Build configuration list for PBXNativeTarget "watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311BB72125A87A4200D40A6E /* Debug */,
+				311BB72225A87A4200D40A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311BB73C25A87AC600D40A6E /* Build configuration list for PBXNativeTarget "tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311BB73D25A87AC600D40A6E /* Debug */,
+				311BB73E25A87AC600D40A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		31A3F2F02599FEBC00B7243D /* Build configuration list for PBXProject "herosMarvel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

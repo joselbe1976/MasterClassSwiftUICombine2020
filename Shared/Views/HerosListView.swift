@@ -11,6 +11,8 @@ struct HerosListView: View {
     @EnvironmentObject var viewModel : MarvelHerosViewModel
     
     var body: some View {
+       
+        #if os(iOS) || os(watchOS) || os(tvOS)
         NavigationView{
             List{
                 ForEach((self.viewModel.dataMarvel?.data?.results!)! ,id:\.self){ hero in
@@ -24,8 +26,26 @@ struct HerosListView: View {
                         })
                 }
             }
-            .navigationBarTitle("Heros Marvel")
+            
+          .navigationBarTitle("Heros Marvel")
         }
+        #else
+               
+                    List{
+                        ForEach((self.viewModel.dataMarvel?.data?.results!)! ,id:\.self){ hero in
+                           /* Añadir log desde SwiftUI
+                                let _ = print(hero.thumbnail.getURLDownloadImage())
+                              */
+                            NavigationLink(
+                                destination: DetailHeroView(hero: hero),
+                                label: {
+                                    HeroRowView(hero: hero)
+                                })
+                        }
+                    }
+                
+        
+        #endif
         
     }
 }
