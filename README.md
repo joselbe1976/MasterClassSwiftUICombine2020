@@ -1,5 +1,6 @@
 # MasterClass SwiftUI & Combine Abril 2021
-Formato Online de 2 sesiones de 4 horas. Total 8 horas.
+- Formato Online de 2 sesiones de 4 horas. Total 8 horas.
+- Uso del API de Marvel como Backend
 
 ## Temario:
 1. Combine.
