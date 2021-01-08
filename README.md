@@ -2,6 +2,10 @@
 - Formato Online de 2 sesiones de 4 horas. Total 8 horas.
 - Uso del API de Marvel como Backend
 
+# Requerimientos necesarios alumno
+- Ordenador mac
+- Cuenta de Mavel para acceso a API desarrolladores (https://developer.marvel.com)
+
 ## Temario:
 1. Combine.
   - PPT explicacion básica
